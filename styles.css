@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #1E90FF;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+}
+
+#messages {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+p {
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Estilo para resaltar el mensaje más reciente */
+p:first-child {
+    background-color: #FFFFE0;
+    font-weight: bold;
+}
