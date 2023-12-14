@@ -2,3 +2,11 @@ Este es el software para poder hacer textboards de torotan, es facil de usar sim
 
 
 Si quieres cambiar el css esta dentro de index.php y thread.php.
+
+
+
+
+
+
+
+Aqui la pagina de torotan: https://torotan.foroelectricos.com.es/
