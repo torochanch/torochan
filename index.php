@@ -17,12 +17,13 @@
         }
 
         .container {
-            width: 90%;
+            width: calc(100% - 140px); /* New size */
             margin: 0 auto;
-            background: ;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
             border-radius: 0px;
+            box-sizing: border-box;
+            margin-left: 140px;
         }
 
         h1 {
@@ -132,9 +133,46 @@
             background-color: #ddd;
             margin: 20px 0;
         }
+
+        /* Menu Style */
+
+        .menu {
+            width: 100px;
+            position: fixed;
+            background: white;
+            margin: 0 100px 0 0;
+            padding: 20px;
+            height: 102%;
+            overflow-y: auto;
+            border: 20px solid;
+            border-width: 0 5px 0 0;
+            border-color: #c1c1c1;
+            box-shadow: 0px 0px 1px 1px;
+            font-size: 13.3333px
+        }
+        .menu ul, .menu li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            line-height: 20px;
+        }
+        .menu h2 {
+            font-size: 13.3333px;
+            color: #f00;
+        }
     </style>
 </head>
 <body>
+	<div draggable="true" class="menu">
+        <ul>
+			<li><a href="https://torotan.foroelectricos.com.es">Home</a></li>
+            <h2>General</h2>
+            <li><a href="https://torotan.foroelectricos.com.es/b/index.php">Random </a></li>
+			<li><a href="https://torotan.foroelectricos.com.es/a/index.php">Anime </a></li>
+			<li><a href="https://torochan.foroelectricos.com.es/">Torochan</a></li>
+
+        </ul>
+    </div>
     <div class="container">
 		<center><iframe src="https://torotan.foroelectricos.com.es/banners.php" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;max-width:800px;max-height:600px;"
 						frameborder="0"></iframe></center>
